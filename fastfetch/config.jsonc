@@ -1,0 +1,129 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  
+//
+//  
+
+{
+    "logo": {
+        "type": "auto",
+        "source": "/home/kiusaja/.config/fastfetch/hallo.jpg",
+        "width": 45,
+        "height": 8,
+        "padding": {
+            "top": 7,
+            "left": 4,
+            "right": 4
+        }
+    },
+    "display": {
+        "separator": " . "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "{1}@{2}"
+        },
+
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────────────◊──────────────────────────────┐\u001b[0m"
+        },
+
+        {
+            "type": "os",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "kernel",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "wm",
+            "key": ">",
+            "keyColor": "white"
+        },
+        {
+            "type": "display",
+            "key": ">",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "custom",
+            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
+        },
+
+        {
+            "type": "cpu",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "gpu",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "swap",
+            "key": ">",
+            "keyColor": "white"
+        },
+        {
+            "type": "memory",
+            "key": ">",
+            "keyColor": "white"
+        },
+        {
+            "type": "disk",
+            "key": ">",
+            "keyColor": "green"
+        },
+        {
+            "type": "battery",
+            "key": ">",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "custom",
+            "format": "\u001b[90m├─────────────────────────────────────────────────────────────┤\u001b[0m"
+        },
+
+        {
+            "type": "uptime",
+            "key": ">",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "datetime",
+            "key": ">",
+            "keyColor": "white"
+        },
+ //       {
+ //           "type": "weather",
+ //           "key": ">",
+ //           "keyColor": "white",
+ //           "timeout": 1500
+ //       },
+        {
+            "type": "terminal",
+            "key": ">",
+            "keyColor": "green"
+        },
+        {
+            "type": "locale",
+            "key": ">",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "custom",
+            "format": "\u001b[90m└──────────────────────────────◊──────────────────────────────┘\u001b[0m"
+        }
+    ]
+}
