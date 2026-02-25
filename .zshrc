@@ -35,6 +35,6 @@ alias ls='eza -a --icons --group-directories-first'
 alias ll='eza -la --icons --octal-permissions --group-directories-first'
 alias lt='eza -T --icons --group-directories-first'
 
-alias gitpush='cd ~/kiusaja && git add . && git commit -m "Auto-Update Dotfiles" && git push && cd -'
+alias gitpush='cd ~/kiusaja && git add . && git commit -m "Kleines direktes Update hihi" && git push && cd -'
 
 alias kys='shutdown now'
