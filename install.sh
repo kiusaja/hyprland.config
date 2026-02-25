@@ -20,4 +20,7 @@ for item in *; do
     echo "Easy peasy geschafft: $item -> $CONFIG_DIR/$item"
 done
 
+ln -snf "$DOT_DIR{/.zshrc" "$HOME/.zshrc"
+echo "Easy peasy geschafft: .zshrc -> $HOME/.zshrc"
+
 echo "Jo buddy du hast es geschafft"
