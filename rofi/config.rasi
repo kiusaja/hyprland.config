@@ -1,0 +1,13 @@
+configuration {
+    font: "JetBrains Mono 10";
+    modi: "drun,run,filebrowser";
+    show-icons: true;
+    display-drun: "Apps";
+    display-run: "Run";
+    display-filebrowser: "Files";
+    drun-display-format: "{name}";
+    hover-select: true;
+    me-select-entry: "MouseSecondary";
+    me-accept-entry: "MousePrimary";
+}
+

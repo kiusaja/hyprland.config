@@ -1,0 +1,10 @@
+window {
+    width: 30%;
+    height: 40%;
+    border-radius: 8px;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+}
