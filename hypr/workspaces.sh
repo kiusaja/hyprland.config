@@ -37,5 +37,14 @@ windowrule {
 
 monitor = , preferred, auto, 1
 
+# Steam immer auf dem hohen Quali Bildschirm
+windowrule {
+  name = windowrule-1
+  monitor = DP-1
+  match:class = ^(steam_app_.*)$
+}
+
+
+
 workspace = 1, monitor:HDMI-A-1
 workspace = 2, monitor:DP-1
