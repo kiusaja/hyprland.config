@@ -1,3 +1,4 @@
+#!/bin/bash
 # Autostart config (Ich liebe dich <3)
 
 # Autostart Programme
@@ -11,8 +12,7 @@ sleep 1
 waypaper --restore &
 
 # udiskie -> Fürs mounten von externen usb-sticks, festplatten und co.
-exec-once = udiskie &
+udiskie &
 
 # Internet
-exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec-once = nm-applet --indicator
+nm-applet --indicator &
