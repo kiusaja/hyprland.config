@@ -26,3 +26,16 @@ device {
     sensitivity = -0.5
 }
 
+# Sprache und co 
+env = LANG,de_DE.UTF-8
+env = LC_ALL,de_DE.UTF-8
+
+# Wayland und hyprland
+env = GDK_BACKEND,wayland,x11,*
+env = QT_QPA_PLATFORM,wayland;xcb
+env = SDL_VIDEODRIVER,wayland
+env = CLUTTER_BACKEND,wayland
+env = XDG_CURRENT_DESKTOP,Hyprland
+env = XDG_SESSION_TYPE,wayland
+env = XDG_SESSION_DESKTOP,Hyprland
+env = MOZ_ENABLE_WAYLAND,1

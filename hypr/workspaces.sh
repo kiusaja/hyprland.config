@@ -36,3 +36,6 @@ windowrule {
 }
 
 monitor = , preferred, auto, 1
+
+workspace = 1, monitor:HDMI-A-1
+workspace = 2, monitor:DP-1

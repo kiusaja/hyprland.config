@@ -18,6 +18,7 @@ bindkey -e
 eval "$(starship init zsh)"
 export EDITOR=nvim
 export VISUAL=nvim
+export TERMINAL=kitty
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd

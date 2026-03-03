@@ -5,7 +5,9 @@
 
 monitor=,preferred,auto,auto
 
-#
+# Pc Monitore, einer rechts dann links
+monitor = HDMI-A-1, 1920x1080@239.76, 2560x0, 1
+monitor = DP-1, 2560x1440@144, 0x0, 1
 
 general {
     gaps_in = 2
