@@ -1,0 +1,57 @@
+add_newline = true
+
+#format = """\
+#[](#9A348E)\
+#$os\
+#$username\
+#[](bg:#DA627D fg:#9A348E)\
+#$directory\
+#[](fg:#DA627D bg:#FCA17D)\
+#$git_branch\
+#$git_status\
+#[](fg:#FCA17D bg:#86BBD8)\
+#$nodejs\
+#$rust\
+#$python\
+#[](fg:#86BBD8 bg:none)\
+#$cmd_duration $time\
+#\n$character\
+#"""
+
+format = """
+❯ $directory ❯ \
+"""
+
+[os]
+format = "[$symbol]($style)"
+style = "bg:#9A348E fg:#ffffff"
+disabled = false
+
+[username]
+style_user = "bg:#9A348E fg:#ffffff"
+format = "[$user]($style)"
+show_always = false
+
+[directory]
+style = "fg:#1816C4"
+truncation_length = 100
+format = "[$path]($style)"
+
+[git_branch]
+format = "[$branch]($style)"
+style = "bg:#FCA17D fg:#000000"
+
+[git_status]
+style = "bg:#FCA17D fg:#000000"
+
+[cmd_duration]
+format = " [$duration](bold yellow)"
+
+[time]
+disabled = false
+format = "[ $time ](bold blue)"
+time_format = "%H:%M:%S"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
