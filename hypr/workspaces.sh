@@ -46,5 +46,3 @@ windowrule {
 
 
 
-workspace = 1, monitor:HDMI-A-1
-workspace = 2, monitor:DP-1
