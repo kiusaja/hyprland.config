@@ -40,3 +40,5 @@ alias gitpush='cd ~/kiusaja && git add . && git commit -m "Kleines direktes Upda
 alias gitpull='cd ~/kiusaja && git pull && ./install.sh && cd -'
 
 alias kys='shutdown now'
+alias ..='cd ..'
+alias ...='cd ../..'

@@ -27,8 +27,8 @@ device {
 }
 
 # Sprache und co 
-env = LANG,de_DE.UTF-8
-env = LC_ALL,de_DE.UTF-8
+env = LANG,en_US.UTF-8
+env = LC_ALL,en_US.UTF-8
 
 # Wayland und hyprland
 env = GDK_BACKEND,wayland,x11,*

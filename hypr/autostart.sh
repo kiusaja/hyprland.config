@@ -2,17 +2,16 @@
 # Autostart config (Ich liebe dich <3)
 
 # Autostart Programme
-swww-daemon & 
+exec-once = swww-daemon & 
 
 # waybar
-exec ~/.config/waybar/waybar.conf
+exec-once = ~/.config/waybar/waybar.conf
 
 # wallpaper
-sleep 1 
-waypaper --restore &
+exec-once = waypaper --restore &
 
 # udiskie -> Fürs mounten von externen usb-sticks, festplatten und co.
-udiskie &
+exec-once = udiskie &
 
 # Internet
-nm-applet --indicator &
+exec-once = nm-applet --indicator &
