@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 1
+
 WALLPAPER_DIR="$HOME/Wallpapers"
 
 ROLL=$((RANDOM % 100)) 
