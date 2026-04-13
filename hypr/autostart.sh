@@ -9,7 +9,7 @@ exec-once = ~/.config/waybar/waybar.conf
 
 # wallpaper
 exec-once = awww-daemon &
-exec-once = awww img ~/Wallpapers/wallpaper.png
+exec-once = awww img ~/Wallpapers/s-l1200.jpg
 
 # udiskie -> Fürs mounten von externen usb-sticks, festplatten und co.
 exec-once = udiskie &
