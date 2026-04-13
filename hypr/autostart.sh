@@ -2,13 +2,14 @@
 # Autostart config (Ich liebe dich <3)
 
 # Autostart Programme
-exec-once = swww-daemon & 
+exec-once = awww-daemon & 
 
 # waybar
 exec-once = ~/.config/waybar/waybar.conf
 
 # wallpaper
-exec-once = waypaper --restore &
+exec-once = awww-daemon &
+exec-once = awww img ~/Wallpapers/wallpaper.png
 
 # udiskie -> Fürs mounten von externen usb-sticks, festplatten und co.
 exec-once = udiskie &

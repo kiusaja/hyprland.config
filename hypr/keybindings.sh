@@ -11,7 +11,7 @@ bind = $mainMod, V, togglefloating,
 bind = $mainMod, R, exec, rofi -show drun
 bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, J, togglesplit, # dwindle
-bind = $mainMod, S, exec, /home/kiusaja/.config/kiusaja/screenshot/screenshot.sh
+bind = $mainMod, S, exec, hyprshot -m region
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
