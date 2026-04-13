@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPER_DIR=$HOME/Wallpapers"
+WALLPAPER_DIR="$HOME/Wallpapers"
 
 ROLL=$((RANDOM % 100)) 
 
