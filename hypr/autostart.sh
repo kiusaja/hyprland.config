@@ -12,3 +12,6 @@ exec-once = udiskie &
 
 # Internet
 exec-once = nm-applet --indicator &
+
+# Bluetooth
+exec-once = blueman-applet

@@ -31,6 +31,9 @@ function y() {
 
 fastfetch
 
+# psw
+alias psw='java ~/Documents/psw/Start.java'
+
 # ls alias
 alias ls='eza -a --icons --group-directories-first'
 alias ll='eza -la --icons --octal-permissions --group-directories-first'
@@ -39,3 +42,4 @@ alias lt='eza -T --icons --group-directories-first'
 alias kys='shutdown now'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias please='sudo'
