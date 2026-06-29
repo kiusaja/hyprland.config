@@ -6,18 +6,10 @@
 //  
 
 {
-    "logo": {
-        "type": "auto",
-        "source": "/home/kiusaja/Wallpapers/fastfetch/hallo.jpg",
-        "width": 45,
-        "height": 8,
-        "padding": {
-            "top": 7,
-            "left": 4,
-            "right": 4
-        }
+    "logo": { 
+        "type": "none"        
     },
-    "display": {
+	"display": {
         "separator": " . "
     },
     "modules": [
